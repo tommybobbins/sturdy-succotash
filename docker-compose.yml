@@ -2,7 +2,7 @@ name: twenty
 
 services:
   server:
-    image: twentycrm/twenty:${TAG:-latest}
+    image: public.ecr.aws/x2w7d2b4/twenty:v1.0.3
     volumes:
       - server-local-data:/app/packages/twenty-server/.local-storage
     ports:
