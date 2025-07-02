@@ -127,8 +127,6 @@ services:
     image: public.ecr.aws/nginx/nginx:1.29
     container_name: nginx
     restart: always
-    networks:
-      - skynet
     ports:
       - 80:80
       - 443:443
